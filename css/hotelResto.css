@@ -271,12 +271,6 @@ button:hover {
 
 /* RESPONSIVE QUERIES */
 
-@media(max-width: 600px) {
-  .hotelImages {
-    width: 90%;
-    max-width: 100%;
-  }
-}
 /* Mobile: logo, icons, layout tweaks */
 @media (max-width: 400px) {
   .logo1 {
@@ -293,7 +287,11 @@ button:hover {
     font-weight: 900;
   }
 
-z
+  .hotelImages {
+    width: 40vw;
+    max-height: 20vh;
+  }
+
   .hotel-icons {
     justify-content: center;
     align-items: center;
