@@ -145,8 +145,6 @@ html, body {
   display: flex;
   flex-direction: column;
   transition: transform 0.3s ease;
-  width: auto;
-  height: auto;
 }
 
 .hotel-card:hover {
@@ -161,11 +159,6 @@ html, body {
   font-weight: bold;
   color: white;
   width: auto;
-}
-.hotelImages {
-  width: 90vw;
-  max-height: 30vh;
-  border-radius: 8px;
 }
 
 .hotelImages {
