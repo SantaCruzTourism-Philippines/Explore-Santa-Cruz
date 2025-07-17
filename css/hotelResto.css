@@ -162,12 +162,10 @@ html, body {
 }
 
 .hotelImages {
-  width: 100% !important;
-  max-width: 300px !important;
-  height: auto;
-  background-size: cover;
+  width: 20vw;
+  height: fit-content;
+  background-size: contain;
   border-radius: 10px;
-  object-fit: cover;
 }
 
 /* HOTEL INFO */
