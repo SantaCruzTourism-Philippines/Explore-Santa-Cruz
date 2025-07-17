@@ -162,10 +162,12 @@ html, body {
 }
 
 .hotelImages {
-  width: 20vw;
-  height: fit-content;
-  background-size: contain;
+  width: 100% !important;
+  max-width: 300px !important;
+  height: auto;
+  background-size: cover;
   border-radius: 10px;
+  object-fit: cover;
 }
 
 /* HOTEL INFO */
@@ -271,6 +273,12 @@ button:hover {
 
 /* RESPONSIVE QUERIES */
 
+@media(max-width: 600px) {
+  .hotelImages {
+    width: 90%;
+    max-width: 100%;
+  }
+}
 /* Mobile: logo, icons, layout tweaks */
 @media (max-width: 400px) {
   .logo1 {
