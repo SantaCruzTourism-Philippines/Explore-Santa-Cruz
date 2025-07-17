@@ -159,6 +159,7 @@ html, body {
   font-weight: bold;
   color: white;
   width: auto;
+  max-height:20vh;
 }
 
 .hotelImages {
