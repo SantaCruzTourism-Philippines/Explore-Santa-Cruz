@@ -247,7 +247,7 @@ html, body {
   padding: 20px;
   width:100%;
   /* Vibrant blue gradient background */
-  background:linear-gradient(to right, white, rgb(95, 64, 230), rgb(34, 79, 146));
+  background:#1e33ad;
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border: 2px solid rgba(255, 255, 255, 0.2);
